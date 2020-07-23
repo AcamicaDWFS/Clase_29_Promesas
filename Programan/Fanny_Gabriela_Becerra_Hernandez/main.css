@@ -1,9 +1,45 @@
+input,
+label {
+    border-radius: 510px;
+    margin: 0 1vw;
+}
+
 label {
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-input,
-label {
-    margin: .4rem 0;
-    border-radius: 510px;
+main {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: auto;
+    width: 90vw;
+}
+
+tr {
+    margin: 5vw;
+}
+
+tr,
+th,
+td {
+    border: solid 1px black;
+}
+
+td {
+    font-size: 1.5rem;
+    text-align: center;
 }
