@@ -26,7 +26,7 @@ Promise.all([firstRandomNumber, secondRandomNumber, thirdRandomNumber])
         if (success != false) {
             console.warn('¡La fuerza está contigo!');
         } else {
-            throw new Error('¡Suerte para la próxima!');
+            throw new Error('¡Suerte para la próxima! Uno o más de los valores no fue mayor a 50.');
         }
     })
     .catch((err) => {
