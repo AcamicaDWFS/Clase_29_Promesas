@@ -7,7 +7,7 @@ function getGitHubUser(userName) {
         .then(response => response.json())
         .then(json => {
             console.info(json);
-            //getUserFirt5Followers(json.followers_url);
+            getUserFirt5Followers(json.followers_url);
         }).catch(error => {
             console.error("No se pudo obtener la información", error);
         });
@@ -25,7 +25,7 @@ function getUserFirt5Followers(url) {
         });
 }
 
-getGitHubUser("megumiEvans");
+getGitHubUser("cyberhavok");
 //getGitHubUser("celara91");
 //getGitHubUser("megumiEvasn");
 /*getGitHubUser("cyberhavok");
